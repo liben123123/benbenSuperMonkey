@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/car_source/car_source",
+    "pages/search_car/search_car",
+    "pages/user/user",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#010101",
+    "navigationBarTitleText": "犇犇demo",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color":"#a0a0a0",
+    "selectedColor":"#f9c538",
+    "backgroundColor":"#171717",
+    "borderStyle":"white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"images/tab_home_def.png",
+        "selectedIconPath":"images/tab_home_sel.png"
+      },
+      {
+        "pagePath": "pages/car_source/car_source",
+        "text": "课程",
+        "iconPath":"images/tab_class_def.png",
+        "selectedIconPath":"images/tab_class_sel.png"
+      },
+      {
+        "pagePath": "pages/search_car/search_car",
+        "text": "预约",
+        "iconPath":"images/tab_time_def.png",
+        "selectedIconPath":"images/tab_time_sel.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "会员卡",
+        "iconPath":"images/tab_ka_def.png",
+        "selectedIconPath":"images/tab_ka_sel.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+<scroll-view style="height:{{windowHeight}}" scroll-y="true" bindscroll="scrollTopFun">
+<view class="home-wrap">
+ <swiper class='one-swiper' indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="#f9c538">
+  <block wx:for="{{imgUrls}}" wx:key="imgone">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 顶部滑块视图容器。 -->
+<!-- 中间导航开始 -->
+<view class="topnaved">
+ <view class="{{top>flexWrpedTop ?'flex-wrp':'flex-wrped'}}" style="flex-direction:row;">
+          <view class="flex-item demo-text-1">
+            <view>上海市全城</view>
+          </view>
+          <view class="flex-item demo-text-2">
+          <view>全部</view>
+          </view>
+  </view>
+<!-- 健身房列表开始 -->
+  <view class="fitness_room_list">
+    <view class='fitness_room_comm' style='{{top>flexWrpedTop?"margin-top:70rpx":"margin-top:0rpx"}}'>
+      <image src='../../images/fitness_image_demo1.jpeg' class='fitness_room_image'></image>
+      <image src='../../images/lucency_image2.png' class='fitness_lucency_image'></image>
+      <view class='fitness_room_name'>陆家嘴全能店</view>
+      <view class='fitness_room_address'>上海市浦东新区陆家嘴西路168号睁大广场7F层</view>
+      <image src='../../images/admire.png' class='fitness_room_admire'></image>
+    </view>
+     <view class='fitness_room_comm'>
+      <image src='../../images/fitness_image_demo2.jpeg' class='fitness_room_image'></image>
+      <image src='../../images/lucency_image2.png' class='fitness_lucency_image'></image>
+      <view class='fitness_room_name'>陆家嘴全能店</view>
+      <view class='fitness_room_address'>上海市浦东新区陆家嘴西路168号睁大广场7F层</view>
+      <image src='../../images/admire.png' class='fitness_room_admire'></image>
+    </view>
+  </view>
+<!-- 健身房列表结束 -->
+</view>
+<!-- 中间导航结束 -->
+
+
+  <view class="ads-list">
+    <view class="ads-item" wx:for="{{advertise}}" wx:key="unique" wx:for-item="item">
+      <image src="{{item.image}}" mode="scaleToFill center" class="sub-banner"></image>
+    </view>
+  </view>
+  <view class="workbench">
+    <text class="title">工作台</text>
+    <view class="list">
+      <view class="items">
+        <image src="../../images/desk_publish@2x.png"></image>
+        <text>发布车源</text>
+      </view>
+      <view class="items">
+        <image src="../../images/desk_bid@2x.png"></image>
+        <text>户准寻车</text>
+      </view>
+      <view class="items">
+        <image src="../../images/desk_order@2x.png"></image>
+        <text>我的订单</text>
+      </view>
+      <view class="items">
+        <image src="../../images/desk_massage@2x.png"></image>
+        <text>通知消息</text>
+      </view>
+    </view>
+  </view>
+  <view class="workbench">
+    <text class="title">服务</text>
+    <view class="list">
+      <view class="items">
+        <image src="../../images/home_car_source@2x.png" class="service-icon"></image>
+        <text>车源管理</text>
+      </view>
+      <view class="items">
+        <image src="../../images/home_logistical@2x.png" class="service-icon"></image>
+        <text>物流管理</text>
+      </view>
+      <view class="items">
+        <image src="../../images/home_finance@2x.png" class="service-icon"></image>
+        <text>车商金融</text>
+      </view>
+      <view class="items">
+        <image src="../../images/home_headlines@2x.png" class="service-icon"></image>
+        <text>车市头条</text>
+      </view>
+    </view>
+  </view>
+</view>
+</scroll-view>
+

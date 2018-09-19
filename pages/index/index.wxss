@@ -1,0 +1,168 @@
+/**index.wxss**/
+.home-wrap{
+  background: #232323;
+}
+.banner{
+  width: 100%;
+  height: 300rpx;
+}
+
+.home-wrap .slide-image{width: 100%}
+.ads-list{
+  display: flex;
+  flex-direction: row;
+  flex:1;
+  margin-bottom: 1rpx;
+}
+.ads-item{
+  flex:1;
+}
+.sub-banner{
+  width: 100%;
+  height: 120px;
+}
+
+.workbench{
+  font-size: 20rpx;
+  background: #fff;
+  padding-bottom: 30rpx;
+  margin-bottom:10rpx;
+  color: #333;
+}
+.workbench .title{
+  font-size:20rpx;
+  padding: 20rpx 20rpx;
+  margin-bottom: 40rpx;
+  display: block;
+}
+.workbench .list{
+  display: flex;
+  flex-direction: row;
+  flex:1;
+}
+.workbench .items{
+  width: 100rpx;
+  flex:1;
+  text-align: center;
+}
+.workbench .items image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.workbench .items image.service-icon{
+  width: 50rpx;
+  height: 50rpx;
+}
+.workbench .items text{
+  display: block;
+  text-align: center;
+  margin-top: 10rpx;
+}
+
+
+
+
+
+
+.one-swiper{height: 200rpx}
+.topnav{
+    position: fixed;
+    top: 85rpx;
+    z-index:99;
+    background: #fff;
+    width: 100%;
+    height: 1000px;
+}
+
+.topnaved{height: 1000px}
+.flex-item{
+  width: 50%;
+  height: 70rpx;
+  font-size: 22rpx;
+  /* border: 1px solid #ccc; */
+  color: #fcfcfc;
+  text-align: center;
+  background: #1c1c1c;
+}
+.demo-text-1 view{
+  border-right: 1rpx solid #929292;
+}
+.demo-text-1 view,.demo-text-2 view{
+  background-image:url("http://p97ve0l2j.bkt.clouddn.com/down_arrows.png");
+  background-repeat: no-repeat;
+  background-size: 40rpx 40rpx;
+  background-position:250rpx 4rpx;
+}
+.demo-text-2 view{
+  background-position:220rpx 4rpx;
+}
+.flex-item view{
+margin-top: 12rpx;
+height: 46rpx;
+line-height: 46rpx;
+}
+.flex-wrp,.flex-wrped {
+
+display:flex;
+z-index: 100;
+}
+.flex-wrp{
+position: fixed;
+top:0;
+width:100%;
+margin-bottom:15rpx;
+}
+
+.fitness_room_comm{
+  width: 100%;
+  height: 300rpx;
+  position:relative;
+margin-bottom: 15rpx;
+
+
+}
+.fitness_room_image{
+  position : absolute;
+  width: 100%;
+  height: 300rpx;
+  border-radius:5rpx;
+
+}
+.fitness_room_name,.fitness_room_address{
+position: relative;
+color: #fcfcfc;
+padding: 0rpx 15rpx;
+}
+.fitness_room_name{
+font-size: 26rpx;
+padding-top: 220rpx;
+padding-bottom:5rpx;
+}
+.fitness_room_list{
+  padding: 10rpx;
+}
+.fitness_room_admire{
+  position: relative;
+  width: 45rpx;
+  height: 45rpx;
+  top: 0;
+  float: right;
+  margin: -49rpx 20rpx 0 0rpx;
+}
+.fitness_room_address{
+  font-size: 20rpx;
+}
+.fitness_lucency_image{
+   position : absolute;
+   width: 100%;
+   height: 300rpx;
+}
+
+
+
+
+
+
+
+
+
