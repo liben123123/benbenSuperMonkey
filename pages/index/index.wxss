@@ -1,5 +1,5 @@
 /**index.wxss**/
-.home-wrap{
+scroll-view{
   background: #232323;
 }
 .banner{
@@ -74,7 +74,6 @@
     height: 1000px;
 }
 
-.topnaved{height: 1000px}
 .flex-item{
   width: 50%;
   height: 70rpx;
